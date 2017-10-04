@@ -71,6 +71,7 @@ namespace plcserver
             // Create MDSClient object to connect to DotNetMQ
             // Name of this application: PLCServer
             mdsClient = new MDSClient(ApplicationName);
+            mdsClient.ReConnectServerOnError = false;
 
             // Connect to DotNetMQ server
             try

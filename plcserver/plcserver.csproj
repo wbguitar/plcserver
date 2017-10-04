@@ -40,9 +40,6 @@
       <HintPath>..\packages\log4net.2.0.8\lib\net45-full\log4net.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Msg">
-      <HintPath>..\..\new-project\oms\MariniImpianto\Msg\bin\Debug\Msg.dll</HintPath>
-    </Reference>
     <Reference Include="S7.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d5812d469e84c693, processorArchitecture=MSIL">
       <HintPath>..\packages\S7netplus.0.1.4\lib\net45\S7.Net.dll</HintPath>
       <Private>True</Private>
